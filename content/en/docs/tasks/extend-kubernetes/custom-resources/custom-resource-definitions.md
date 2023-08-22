@@ -749,7 +749,7 @@ validations are not supported by ratcheting under the implementation in Kubernet
   - `not`
   -  any validations in a descendent of one of these fields
 - `x-kubernetes-validations`
-  For Kubernetes {{< skew currentVersion >}}, CRD validation rules](#validation-rules) are ignored by
+  For Kubernetes {{< skew currentVersion >}}, CRD [validation rules](#validation-rules) are ignored by
   ratcheting. This may change in later Kubernetes releases.
 - `x-kubernetes-list-type`
   Errors arising from changing the list type of a subschema will not be 
